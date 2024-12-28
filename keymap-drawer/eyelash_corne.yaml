@@ -44,7 +44,7 @@ layers:
   - {t: '`', h: Fn, s: '~'}
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -93,7 +93,7 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - INS
   - $$mdi:backspace-reverse-outline$$
   - .
@@ -142,8 +142,8 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - .
   Fn:
